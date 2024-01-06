@@ -11855,5 +11855,16 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("./public/fonts/RobotoMono-Regular.ttf");
+}
+body {
+  font-family: "Roboto Mono", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  display: grid;
+  align-content: center;
+}
 
 /*# sourceMappingURL=style.css.map */
